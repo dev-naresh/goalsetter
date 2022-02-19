@@ -17,7 +17,7 @@ const userSchema = mongo.Schema({
     },
 },
 {
-    timestanms: true,
+    timestamps: true,
 })
 
 module.exports = mongo.model('Users', userSchema)

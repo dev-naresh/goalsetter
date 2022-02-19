@@ -12,8 +12,8 @@ const goalSchema = mongo.Schema({
     },
 },
 {
-    timestanms: true,
+    timestamps: true,
 }
 )
 
-module.exports = mongo.model('Goals', goalSchema)
+module.exports = mongo.model('Goal', goalSchema)
